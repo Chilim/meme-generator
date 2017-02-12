@@ -1,0 +1,79 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Barrio', cursive;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.header {
+    height: auto;
+    background: #eee;
+}
+
+.header img {
+    height: 80px;
+    width: 80px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.header h1 {
+    display: inline-block;
+    margin: 0;
+    margin: 22px 0 22px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Main */
+
+.main.clear {
+    margin-top: 30px;
+}
+
+meme {
+    position: relative;
+}
+
+.text-style {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 20px;
+}
+
+#top-text {
+    position: absolute;
+    top: 8px;
+}
+
+#bottom-text {
+    position: absolute;   
+    bottom: 20px;
+}
+
+input {
+    outline:none;
+    height: 20px;
+    padding: 5px 0;
+}
+
+.meme-form {
+    height: 30px;
+    width: 100%;
+    border-style: none;
+    border: 0;
+    border-bottom: 5px solid #d8a27e;
+}
+
+
+
