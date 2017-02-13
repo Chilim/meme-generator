@@ -6,27 +6,28 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Barrio&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Memaker</title>
 </head>
 
 <body>
     <div class='header'>
         <div class='container'>
-                <div col-12-md>
-                    <img src="pics/mem-logo.png" />
-                    <h1>Memaker</h1>
-                </div>
+            <div col-12-md>
+                <img src="pics/mem-logo.png" />
+                <h1>Memaker</h1>
+            </div>
         </div>
     </div>
-    <div class='main clear'>
+    <div class='main'>
         <div class='container'>
             <div class='row'>
                 <div class='col-md-6'>
                     <div class="meme thumbnail">
                         <img src='pics/mem-dog.jpg'>
-                        <p id="top-text" class="text-style">Top text</p>
-                        <p id="bottom-text" class="text-style">Bottom text</p>
+                        <h1 class="top-caption">Top text</h1>
+                        <h1 class="bottom-caption">Bottom text</h1>
                     </div>
                 </div>
                 <div class='col-md-6'>
@@ -45,7 +46,14 @@
             </div>
         </div>
     </div>
-    <div class='carousel'></div>
-    <div class='footer'></div>
+    <div class='meme-gallery'>
+        <div class="container">
+            <img id="pic1" class="meme-pic" src="meme-pics/mem_1.png" alt="picture1">
+            <img id="pic2" class="meme-pic" src="meme-pics/mem_2.png" alt="picture2">
+            <img id="pic3" class="meme-pic" src="meme-pics/mem_3.png" alt="picture3">
+            <img id="pic4" class="meme-pic" src="meme-pics/mem_4.png" alt="picture4">
+            <img id="pic5" class="meme-pic" src="meme-pics/mem_5.png" alt="picture5">
+        </div>
+    </div>
 </body>
 </html>

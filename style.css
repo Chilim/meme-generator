@@ -15,51 +15,53 @@ html, body {
 .header {
     height: auto;
     background: #eee;
+    margin-bottom: 40px;
 }
 
 .header img {
     height: 80px;
     width: 80px;
     margin: 0 10px 0 0;
-    float: left;
 }
 
 .header h1 {
     display: inline-block;
     margin: 0;
-    margin: 22px 0 22px 0;
-}
-
-.clear {
-    clear: both;
 }
 
 /* Main */
 
-.main.clear {
-    margin-top: 30px;
-}
 
 meme {
     position: relative;
 }
 
-.text-style {
-    text-align: center;
+.top-caption,
+.bottom-caption {
+    font-family: Impact, sans-serif;
+    color: #fff;
+    text-shadow: #000 0px 0px 6px;
     text-transform: uppercase;
-    color: #FFF;
-    font-size: 20px;
+    text-align: center;
+    font-size: 50px;
 }
 
-#top-text {
+.top-caption {
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     position: absolute;
-    top: 8px;
 }
 
-#bottom-text {
-    position: absolute;   
-    bottom: 20px;
+.bottom-caption {  
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
 }
+
 
 input {
     outline:none;
@@ -68,12 +70,24 @@ input {
 }
 
 .meme-form {
-    height: 30px;
+    line-height: 30px;
     width: 100%;
     border-style: none;
     border: 0;
     border-bottom: 5px solid #d8a27e;
 }
 
+/* Meme gallery */
 
+.meme-gallery {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.meme-pic {
+    width: 160px;
+    height: 90px;
+    margin: 5px;
+    border: 3px solid #eee;
+}
 
