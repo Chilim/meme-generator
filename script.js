@@ -8,5 +8,12 @@ $(document).ready(function() {
       var topText = $("input#top-text").val();
       $("h1.top-caption").text(topText);
   })
+  
+  $("#bottom-text").keyup(function() {
+      var bottomText = $("input#bottom-text").val();
+      $("h1.bottom-caption").text(bottomText);
+  })
+  
 })
+
 

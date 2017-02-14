@@ -77,6 +77,14 @@ input {
     border-bottom: 5px solid #d8a27e;
 }
 
+.col-md-6 a {
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #D8A27E;
+    color: #fff;
+}
+
 /* Meme gallery */
 
 .meme-gallery {
